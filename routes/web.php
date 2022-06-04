@@ -29,6 +29,6 @@ Route::group(['prefix' => 'admin'], function () {
     Route::get('pinos/valide/edit/{id}',[PinosController::class,'modifier'])->name('edit');
     Route::post('pinos/valide/edit',[PinosController::class,'updateData'])->name('update');
     Route::get('pinos/mahdi',[PinosController::class,'ind']);
-    Route::get('pinos/mahdi/{id}',[PinosController::class,'sh'])->name('sh');
+    Route::get('pinos/mahdi/{id}',[PinosController::class,'sh'])->name('shjdshdhsq');
     Voyager::routes();
 });
